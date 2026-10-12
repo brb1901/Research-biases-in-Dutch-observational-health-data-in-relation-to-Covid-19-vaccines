@@ -1,0 +1,47 @@
+group,regex_atc_pratt,regex_atc_caughey,regex_atc_garland,index_pratt,index_sum_all,regex_atc4_approx
+Alcohol dependence,N07BB[[:digit:]]{2},N07BB0[34]|V03AA01,N07BB0[1345],6,1,N07B
+Allergies,R0(1A(C[0-9]{2}|D([0-5][0-9]|60))|(6A(([D-V][0-9]{2}|X([01][0-9]|2[0-7]))|B04))),R0(1A(C[[:digit:]]{2}|D([0-5][[:digit:]]|60))|6A([D-W][[:digit:]]{2}|X([01][[:digit:]]|2[0-6]))),R0[16]A[CDEX][0125][1-35-9],-1,1,R0[16]A
+Anticoagulants,B01A((A(0[3-9]|[1-9][[:digit:]])|B0[0-6])|E07|F0[12]|X05),B01A(A(0[3-9]|[1-9][[:digit:]])|B0[0-6]),B01A[AB][01][0-69],1,1,B01A
+Antiplatelets,B01AC(0[4-9]|[1-2][0-9]|30),B01AC(0[4-9]|[12][[:digit:]]|30),B01AC[0-4679],2,1,B01A
+Anxiety,N05B(A(0[1-9]|1[0-2])|E01),N05BA(0[[:digit:]]|1[0-2]),N05BA[01][1246],1,1,N05B
+Arrhythmia,C0(1(AA05|B([A-C][[:digit:]]{2}|D0[01]))|7AA07),C01(AA05|B([A-C][[:digit:]]{2}|D0[01])),C01[AB][A-D]0[13457],2,1,C01[AB]
+Benign prostatic hyperplasia,G04C(A[[:digit:]]{2}|B0[12]),G04CA0[23],G04CA0[1-3],0,1,G04C
+Bipolar disorder,N05AN01,N06AX,N0[35]A[EGHNX][01][1-49],-1,1,N0[35]A
+Chronic airways disease,R03([A-D][A-V][0-9]{2}|DX05),R03(A(C(0[2-9]|[1-9][[:digit:]])|[D-X][[:digit:]]{2})|[BC][A-X][[:digit:]]{2}|D([AB][[:digit:]]{2}|C0[0-3])),R03[A-D][ABCKLX][01][[:digit:]],2,1,R03[A-D]
+Congestive heart failure,C0(3(DA[0-9]{2}|C([AB][0-9]{2}|C01))|7A(B(0[27]|12)|G02)|9([AC][A-Z][0-X]{2})),C0(3(C([AB][[:digit:]]{2}|C0[01]))|9(AA(0[[:digit:]]|10)|CA0[67])),C0[39][ACD][AC][01][0-79],2,1,C0[39][ACD]
+Dementia,N06D(A0[2-4]|X01),N06DA0[2-4],N04D[AX]0[1-4],2,1,N0[46]D
+Depression,N06A([A-F][0-9]{2}|G0[0-2]|X(0[3-9]|1[013-8]|2[1-6])),N06A([A-F][[:digit:]]{2}|G0[0-2]|X(0[[:digit:]]|1[0-8])),N06A[ABGX][012][0-689],2,1,N06A
+Diabetes,A10[AB][[:alnum:]]{3},A10(A[A-X][[:digit:]]{2}|B([A-F][[:digit:]]{2}|G0[0-3])) ,A10[AB][A-HX][01][[:digit:]],2,1,A10[AB]
+Epilepsy,N03A[[:alnum:]]{3},N03A([A-W][[:digit:]]{2}|X14),N03A[ABDEFGX][01][0-59],0,1,N03A
+Gastrooesophageal reflux disease,A02B([A-W][[:digit:]]{2}|X0[0-5]),A02B([A-W][[:digit:]]{2}|X05),A02B[A-DX][015][1-6],0,1,A02B
+Glaucoma,S01E(A[[:digit:]]{2}|B0[0-3]|C(0[3-9]|[1-9][[:digit:]])|[D-X][[:digit:]]{2}),"S01E(A[[:digit:]]{2}|B0[0-3]|C(0[3-9]|[[:alnum:]]{1,3}))",S01E[A-EX][05][1-5],0,1,S01E
+Gout,M04A([AB][[:digit:]]{2}|C0[01]),M04A([AB][[:digit:]]{2}|C0[01]),M04A[A-C]01,1,1,M04A
+Hepatitis B,J05AF(08|1[01]) ,,,0,1,J05A
+Hepatitis C,J05A(B54|E1[124]|X(1[45]|65)|B04)|L03AB[16][01],J05AB54,J05A[ABEX][0156][12457],0,1,J05A
+HIV,J05A(E(0[1-9]|10)|F(0[1-79]|1[2-9]|[2-9][[:digit:]])|G0[0-5]|R[[:digit:]]{2}|X(0[7-9]|12)|),J05A(E(0[0-8])?|F[[:digit:]]{2}|G0[0-3]|R.*|X07),J05A[EFGRX][016][[:digit:]],0,1,J05A
+Hyperkalaemia,V03AE01,V03AE01,V03AE01,4,1,V03A
+Hyperlipidaemia,A10BH03|C10([AB][A-Z][0-9]{2}|X0[0-9]),C10(A[A-X][[:digit:]]{2}|B[A-W][[:digit:]]{2}|X0[0-3]),C10[AB][ABCX][01][1-579],-1,1,[AC]10[AB]
+Hypertension,C0(2(A(B[0-9]{2}|C0[0-5])|DB(0[2-9]|[1-9][0-9]))|3((A[A-Z][0-9]{2}|BA(0[0-9]|1[01]))|DB(01|99)|C([AB][0-9]{2}|C0[01])|EA01)|9(BA0[2-9]|DA0[2-8]|C[A-X][0-9]{2})),C0(2(A(B[[:digit:]]{2}|C0[0-5])|[D-J][A-X][[:digit:]]{2}|K([A-W][[:digit:]]{2}|X0[10]))|3([AD][A-X][[:digit:]]{2}|BA(0[[:digit:]]|1[01])|EA0[01])|9(BA0[2-9]|DA0[2-7])) ,C0[239][ABDEKX][ABCX][01][1-9],-1,1,C0[239][ABDEKX]
+Hyperthyroidism,H03AA0[12],H03AA0[12],H03AA0[12],2,1,H03A
+Hypothyroidism,H03B(A02|B01),,,0,1,H03B
+Incontinence,G04BD[[:digit:]]{2},,,0,1,G04B
+Inflammation/pain,M01A([B-G][[:digit:]]{2}|H0[0-6]),M01A([B-G][[:digit:]]{2}|H0[0-6]),M01A[BCEHX][015][1-6],-1,1,M01A
+Irritable bowel syndrome,A07E(A0[1-26]|C0[1-4]|)|L04AA33,A07E(C0[1-4]|A0[12]),A07E[AC]0[1-46],0,1,A07E
+Ischaemic heart disease: hypertension,C(0(7A(A(0[1-689]|[1-9][0-9])|B0[0-3]|G01)|8(C[A-Z][0-9]{2}|D(A[0-9]{2}|B0[01]))|9(BB(0[2-9]|10)|D(B0[1-4]|X0[13])))|10BX03),C0(7(A((A[[:digit:]]{2}|B0[0-3])|[G-X][[:digit:]]{2})|[B-X][A-X][[:digit:]]{2})|8([A-C][A-X][[:digit:]]{2}|D(A[[:digit:]]{2}|B0[01]))),C0[78][ACDF][ABG][01][1-7],-1,1,C0[78][ACDF]
+Ischemic heart disease: angina,C0(1D(A(0[2-9]|1[0-4])|X16)|8EX02),C01DA0[2-4],C01DA[01][248],2,1,C01D
+Liver failure,A0(6AD11|7AA11),A06AD11,A06AD11,3,1,A0[67]A
+Malignancies,L01[A-X]{2}[[:digit:]]{2},L01[A-X]{2}[[:digit:]]{2},L01[A-DX][A-EX][0-5][[:digit:]],2,1,L01[A-DX]
+Malnutrition,B05BA(0[1-9]|10),B05BA03,B05BA[01][03],0,1,B05B
+Migraine,N02C[A-X][[:digit:]]{2},N02C[A-X][[:digit:]]{2},N02C[ACX]0[1-6],-1,1,N02C
+Osteoporosis/Paget's,G03XC01|H05AA02|M05B(A[[:digit:]]{2}|B0[0-5]|X0[34]),M05B(A[[:digit:]]{2}|B0[0-3]),M05B[ABX]0[1-46-8],-1,1,M05B
+Pain,N02(A([A-W][0-9]{1}|X(0[0-26]|52))|BE51),N02A[A-X][[:digit:]]{2},N02A[ABEFGX][05][123569],3,1,N02A
+Pancreatic insufficiency,A09AA02,A09AA02,A09AA02,0,1,A09A
+Parkinson's disease,N04[AB][A-DX][[:digit:]]{2},N04([AB][A-X][[:digit:]]{2}),N04[AB][ACDX]0[1-79],3,1,N04[AB]
+Psoriasis,D05(A(A[[:digit:]]{2}|C([0-4][[:digit:]]|5[01])|X[05]2)|BB0[12]),D05(A(A|X02)|BB0[12]),D05[AB][ABX][05][12],0,1,D05[AB]
+Psychotic illness,N05A(A[[:digit:]]{2}|B(0[0-26-9]|[1-9][[:digit:]])|[C-K][[:digit:]]{2}|L0[0-7]|X(0[7-9]|1[0-3])),N05A(A[[:digit:]]{2}|B(0[0-26-9]|[1-9][[:digit:]])|[C-X][[:digit:]]{2}),N05A[ABDEFHNX][01][1-68],6,1,N05A
+Pulmonary hypertension,C02KX0[1-5],,,6,1,C02K
+Renal disease,A11CC0[1-4]|B03XA0[1-3]|V03AE0[235],B03XA0[12]|A11CC0[1-4]|V03AE02,(B03XA0[1-3])|(A11CC0[1-4]),6,1,(B03X)|(A11C)
+Smoking cessation,N0(7BA0[1-3]|6AX12),N07BA0[1],N07BA0[1-3],6,1,N07B
+Steroid-responsive disease,H02AB(0[[:digit:]]|10),H02AB(0[[:digit:]]|10),H02AB(0[1246-9]|10),2,1,H02A
+Transplant,L04A(A(06|1[08])|D0[12]),L04AA([01][[:digit:]]|2[01]),L04AA[012][013468],0,1,L04A
+Tuberculosis,J04A(C([0-4][[:digit:]]|5[01])|M[[:digit:]]{2}),J04A([B-J][[:digit:]]{2}|K0[0-2]),J04A[A-CKM]0[12456],0,1,J04A
