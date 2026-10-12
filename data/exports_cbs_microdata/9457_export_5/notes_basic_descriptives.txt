@@ -1,0 +1,173 @@
+python calc_unmatched_dataset_descriptives_all_vB.py
+
+(9457) H:\code\python\analysis>python calc_unmatched_dataset_descriptives_all_vB.py
+1930
+1940
+
+0
+reading: unmatchedset_trackable_2021_extra1_1930_1940_WLZ0_v0
+Number of people alive and present in this age group start of processing: 570613
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 5.308974734189372
+GBAGESLACHT
+Number of people with value 1: 237858
+Percentage of people with value 1: 41.68464440873236
+treatment
+Number of people with value 1: 522221
+Percentage of people with value 1: 91.51929591509482
+Press enter to continue
+1
+reading: unmatchedset_trackable_2021_extra1_1930_1940_WLZ1_v0
+Number of people alive and present in this age group start of processing: 59299
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 5.335941584175113
+GBAGESLACHT
+Number of people with value 1: 16449
+Percentage of people with value 1: 27.739084976137878
+treatment
+Number of people with value 1: 50049
+Percentage of people with value 1: 84.40108602168671
+Press enter to continue
+1940
+1950
+
+0
+reading: unmatchedset_trackable_2021_extra1_1940_1950_WLZ0_v0
+Number of people alive and present in this age group start of processing: 1491819
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 3.547436384708869
+GBAGESLACHT
+Number of people with value 1: 714778
+Percentage of people with value 1: 47.91318517863092
+treatment
+Number of people with value 1: 1388811
+Percentage of people with value 1: 93.0951408984602
+Press enter to continue
+1
+reading: unmatchedset_trackable_2021_extra1_1940_1950_WLZ1_v0
+Number of people alive and present in this age group start of processing: 32803
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 4.426211017285004
+GBAGESLACHT
+Number of people with value 1: 14098
+Percentage of people with value 1: 42.97777642288815
+treatment
+Number of people with value 1: 28436
+Percentage of people with value 1: 86.68719324452032
+Press enter to continue
+1950
+1960
+
+0
+reading: unmatchedset_trackable_2021_extra1_1950_1960_WLZ0_v0
+Number of people alive and present in this age group start of processing: 2050030
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 2.379988097735155
+GBAGESLACHT
+Number of people with value 1: 1012760
+Percentage of people with value 1: 49.402203870187265
+treatment
+Number of people with value 1: 1876136
+Percentage of people with value 1: 91.5174899879514
+Press enter to continue
+1
+reading: unmatchedset_trackable_2021_extra1_1950_1960_WLZ1_v0
+Number of people alive and present in this age group start of processing: 22672
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 3.005513408609739
+GBAGESLACHT
+Number of people with value 1: 12493
+Percentage of people with value 1: 55.10321100917431
+treatment
+Number of people with value 1: 20445
+Percentage of people with value 1: 90.17731122088921
+Press enter to continue
+1960
+1970
+
+0
+20 YEARS
+reading: unmatchedset_trackable_2021_extra1_1960_1970_WLZ0_v0
+reading: unmatchedset_trackable_2021_extra1_1970_1980_WLZ0_v0
+20 YEARS SUCCESS
+Number of people alive and present in this age group start of processing: 4557160
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 1.3771364182956052
+GBAGESLACHT
+Number of people with value 1: 2263145
+Percentage of people with value 1: 49.66130221453712
+treatment
+Number of people with value 1: 3856002
+Percentage of people with value 1: 84.61414565211668
+Press enter to continue
+1
+20 YEARS
+reading: unmatchedset_trackable_2021_extra1_1960_1970_WLZ1_v0
+reading: unmatchedset_trackable_2021_extra1_1970_1980_WLZ1_v0
+20 YEARS SUCCESS
+Number of people alive and present in this age group start of processing: 36721
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 2.1225184499332808
+GBAGESLACHT
+Number of people with value 1: 21056
+Percentage of people with value 1: 57.34048637019689
+treatment
+Number of people with value 1: 33527
+Percentage of people with value 1: 91.30197979357861
+Press enter to continue
+1980
+1990
+
+0
+20 YEARS
+reading: unmatchedset_trackable_2021_extra1_1980_1990_WLZ0_v0
+reading: unmatchedset_trackable_2021_extra1_1990_2000_WLZ0_v0
+20 YEARS SUCCESS
+Number of people alive and present in this age group start of processing: 3918329
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 0.6184572556311632
+GBAGESLACHT
+Number of people with value 1: 1972278
+Percentage of people with value 1: 50.33467072315776
+treatment
+Number of people with value 1: 2810717
+Percentage of people with value 1: 71.73254211170119
+Press enter to continue
+1
+20 YEARS
+reading: unmatchedset_trackable_2021_extra1_1980_1990_WLZ1_v0
+reading: unmatchedset_trackable_2021_extra1_1990_2000_WLZ1_v0
+20 YEARS SUCCESS
+Number of people alive and present in this age group start of processing: 44501
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 1.5034943034987978
+GBAGESLACHT
+Number of people with value 1: 26138
+Percentage of people with value 1: 58.73575874699445
+treatment
+Number of people with value 1: 36659
+Percentage of people with value 1: 82.37792409159344
+Press enter to continue
+2000
+2010
+
+0
+20 YEARS
+reading: unmatchedset_trackable_2021_extra1_2000_2010_WLZ0_v0
+reading: unmatchedset_trackable_2021_extra1_2010_2020_WLZ0_v0
+20 YEARS SUCCESS
+Number of people alive and present in this age group start of processing: 3131918
+med_rxrisk_score_weightedpratt_prevyear
+mean_val: 0.19389141095009513
+GBAGESLACHT
+Number of people with value 1: 1603349
+Percentage of people with value 1: 51.19383713111263
+treatment
+Number of people with value 1: 1426172
+Percentage of people with value 1: 45.53669668235248
+Press enter to continue
+1
+20 YEARS
+reading: unmatchedset_trackable_2021_extra1_2000_2010_WLZ1_v0
+file does not exist, skipping this subgroup
+Press enter to continue
