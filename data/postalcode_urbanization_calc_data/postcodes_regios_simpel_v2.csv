@@ -1,0 +1,16 @@
+postcode_start,postcode_end,provincie_regio_naam,provincie_regio_code
+1000,2158,Noord-Holland,1
+2159,3399,Zuid-Holland,2
+3400,3999,Utrecht,3
+4000,4329,"Het rivierengebied bij Zuid-Holland, Noord-Brabant en Gelderland",4
+4330,4699,Zeeland,5
+4700,5767,Noord-Brabant,6
+5678,6499,Limburg,7
+6500,7399,Gelderland,8
+7400,7799,Overijssel,9
+7800,7999,Drenthe,10
+8000,8387,"Gebied bij het IJsselmeer (Gelderland, Overijssel, Drente en Flevoland)",11
+8388,9299,Friesland (Fryslân),12
+9300,9299,Groningen,13
+9399,9499,Drenthe,14
+9500,9999,Groningen,15

@@ -1,0 +1,60 @@
+WLZGZZP_code,WLZGZZP_descr,WLZGZZP_type,WLZGZZP_type_catdescr,WLZGZZP_type_lettercode,WLZ_level
+0,Bij een leeg veld (---) is geen ZZP bekend,-1,unknown,,0
+191,Zorgzwaartepakket (zzp) 9b Verpleging en verzorging (VV) Herstelgerichte behandeling met verpleging en verzorging,1,Verpleging en verzorging (VV),VV,1
+750,Zorgzwaartepakket (zzp) 1 Verpleging en verzorging (VV) Beschut wonen met enige begeleiding,1,Verpleging en verzorging (VV),VV,1
+751,Zorgzwaartepakket (zzp) 2 Verpleging en verzorging (VV) Beschut wonen met begeleiding en verzorging,1,Verpleging en verzorging (VV),VV,2
+752,Zorgzwaartepakket (zzp) 3 Verpleging en verzorging (VV) Beschut wonen met begeleiding en intensieve verzorging,1,Verpleging en verzorging (VV),VV,3
+753,Zorgzwaartepakket (zzp) 4 Verpleging en verzorging (VV) Beschut wonen met intensieve begeleiding en uitgebreide verzorgi,1,Verpleging en verzorging (VV),VV,4
+754,Zorgzwaartepakket (zzp) 5 Verpleging en verzorging (VV) Beschermd wonen met intensieve dementiezorg,1,Verpleging en verzorging (VV),VV,5
+755,Zorgzwaartepakket (zzp) 6 Verpleging en verzorging (VV) Beschermd wonen met intensieve verzorging en verpleging,1,Verpleging en verzorging (VV),VV,6
+756,Zorgzwaartepakket (zzp) 7 Verpleging en verzorging (VV) Beschermd wonen met zeer intensieve zorg  vanwege specifieke aan,1,Verpleging en verzorging (VV),VV,7
+757,Zorgzwaartepakket (zzp) 8 Verpleging en verzorging (VV) Beschermd wonen met zeer intensieve zorg  vanwege specifieke aan,1,Verpleging en verzorging (VV),VV,8
+759,Zorgzwaartepakket (zzp) 10 Verpleging en verzorging (VV) Beschermd verblijf met intensieve palliatief-terminale zorg,1,Verpleging en verzorging (VV),VV,9
+760,Zorgzwaartepakket (zzp) 1C Geestelijke gezondheidszorg (GGZ) Beschermd wonen met begeleiding (C-groep),2,Geestelijke gezondheidszorg (GGZ),GGZ,1
+762,Zorgzwaartepakket (zzp) 2C Geestelijke gezondheidszorg (GGZ) Gestructureerd beschermd wonen met uitgebreide begeleiding,2,Geestelijke gezondheidszorg (GGZ),GGZ,2
+764,Zorgzwaartepakket (zzp) 3C Geestelijke gezondheidszorg (GGZ) Beschermd wonen met intensieve begeleiding (C-groep),2,Geestelijke gezondheidszorg (GGZ),GGZ,3
+766,Zorgzwaartepakket (zzp) 4B Geestelijke gezondheidszorg (GGZ) Voortgezet verblijf met intensieve begeleiding en verzorgin,2,Geestelijke gezondheidszorg (GGZ),GGZ,4
+768,Zorgzwaartepakket (zzp) 5B Geestelijke gezondheidszorg (GGZ) Voortgezet verblijf met intensieve begeleiding en gedragsre,2,Geestelijke gezondheidszorg (GGZ),GGZ,5
+770,Zorgzwaartepakket (zzp) 6B Geestelijke gezondheidszorg (GGZ) Voortgezet verblijf met intensieve begeleiding en intensiev,2,Geestelijke gezondheidszorg (GGZ),GGZ,6
+772,Zorgzwaartepakket (zzp) 7B Geestelijke gezondheidszorg (GGZ) Beveiligd voortgezet verblijf vanwege extreme gedragsproble,2,Geestelijke gezondheidszorg (GGZ),GGZ,7
+780,Zorgzwaartepakket (zzp) 1 Licht verstandelijk gehandicapten (LVG) Wonen met enige behandeling en begeleiding,3,Licht verstandelijk gehandicapten (LVG),LVG,1
+781,Zorgzwaartepakket (zzp) 2 Licht verstandelijk gehandicapten (LVG) Wonen met behandeling en begeleiding,3,Licht verstandelijk gehandicapten (LVG),LVG,2
+782,Zorgzwaartepakket (zzp) 3 Licht verstandelijk gehandicapten (LVG) Wonen met intensieve behandeling en begeleiding  klein,3,Licht verstandelijk gehandicapten (LVG),LVG,3
+783,Zorgzwaartepakket (zzp) 4 Licht verstandelijk gehandicapten (LVG) Wonen met zeer intensieve behandeling en begeleiding,3,Licht verstandelijk gehandicapten (LVG),LVG,4
+784,Zorgzwaartepakket (zzp) 5 Licht verstandelijk gehandicapten (LVG) Besloten wonen met zeer intensieve behandeling en bege,3,Licht verstandelijk gehandicapten (LVG),LVG,5
+790,Zorgzwaartepakket (zzp) Sterk gedragsgestoord licht verstandelijk gehandicapten (SGLVG) Behandeling in een SGLVG behande,3,Licht verstandelijk gehandicapten (LVG),LVG,6
+800,Zorgzwaartepakket (zzp) 1 Verstandelijk gehandicapten (VG) Wonen met enige begeleiding,4,Verstandelijk gehandicapten (VG),VG,1
+802,Zorgzwaartepakket (zzp) 2 Verstandelijk gehandicapten (VG) Wonen met begeleiding,4,Verstandelijk gehandicapten (VG),VG,2
+804,Zorgzwaartepakket (zzp) 3 Verstandelijk gehandicapten (VG) Wonen met begeleiding en verzorging,4,Verstandelijk gehandicapten (VG),VG,3
+806,Zorgzwaartepakket (zzp) 4 Verstandelijk gehandicapten (VG) Wonen met begeleiding en intensieve verzorging,4,Verstandelijk gehandicapten (VG),VG,4
+808,Zorgzwaartepakket (zzp) 5 Verstandelijk gehandicapten (VG) Wonen met intensieve begeleiding en intensieve verzorging,4,Verstandelijk gehandicapten (VG),VG,5
+810,Zorgzwaartepakket (zzp) 6 Verstandelijk gehandicapten (VG) Wonen met intensieve begeleiding  verzorging en gedragsregule,4,Verstandelijk gehandicapten (VG),VG,6
+812,Zorgzwaartepakket (zzp) 7 Verstandelijk gehandicapten (VG) (Besloten) wonen met zeer intensieve begeleiding  verzorging,4,Verstandelijk gehandicapten (VG),VG,7
+814,Zorgzwaartepakket (zzp) 8 Verstandelijk gehandicapten (VG) Wonen met begeleiding en volledige verzorging en verpleging,4,Verstandelijk gehandicapten (VG),VG,8
+820,Zorgzwaartepakket (zzp) 1 Lichamelijk gehandicapt (LG) Wonen met enige begeleiding en enige verzorging,5,Lichamelijk gehandicapt (LG),LG,1
+822,Zorgzwaartepakket (zzp) 2 Lichamelijk gehandicapt (LG) Wonen met begeleiding en enige verzorging,5,Lichamelijk gehandicapt (LG),LG,2
+824,Zorgzwaartepakket (zzp) 3 Lichamelijk gehandicapt (LG) Wonen met enige begeleiding en verzorging,5,Lichamelijk gehandicapt (LG),LG,3
+826,Zorgzwaartepakket (zzp) 4 Lichamelijk gehandicapt (LG) Wonen met begeleiding en verzorging,5,Lichamelijk gehandicapt (LG),LG,4
+828,Zorgzwaartepakket (zzp) 5 Lichamelijk gehandicapt (LG) Wonen met begeleiding en intensieve verzorging,5,Lichamelijk gehandicapt (LG),LG,5
+830,Zorgzwaartepakket (zzp) 6 Lichamelijk gehandicapt (LG) Wonen met intensieve begeleiding en intensieve verzorging,5,Lichamelijk gehandicapt (LG),LG,6
+832,Zorgzwaartepakket (zzp) 7 Lichamelijk gehandicapt (LG) Wonen met zeer intensieve begeleiding en zeer intensieve verzorgi,5,Lichamelijk gehandicapt (LG),LG,7
+840,Zorgzwaartepakket (zzp) 1 Zintuiglijk gehandicapt (ZG) visueel Wonen met enige begeleiding en enige verzorging,6,Zintuiglijk gehandicapt (ZG),ZG,1
+842,Zorgzwaartepakket (zzp) 2 Zintuiglijk gehandicapt (ZG) visueel Wonen met begeleiding en enige verzorging,6,Zintuiglijk gehandicapt (ZG),ZG,2
+844,Zorgzwaartepakket (zzp) 3 Zintuiglijk gehandicapt (ZG) visueel Wonen met intensieve begeleiding en verzorging,6,Zintuiglijk gehandicapt (ZG),ZG,3
+846,Zorgzwaartepakket (zzp) 4 Zintuiglijk gehandicapt (ZG) visueel Wonen met intensieve begeleiding en intensieve verzorging,6,Zintuiglijk gehandicapt (ZG),ZG,4
+848,Zorgzwaartepakket (zzp) 5 Zintuiglijk gehandicapt (ZG) visueel Wonen met zeer intensieve begeleiding en zeer intensieve,6,Zintuiglijk gehandicapt (ZG),ZG,5
+850,Zorgzwaartepakket (zzp) 1 Zintuiglijk gehandicapt (ZG) auditief Wonen met begeleiding en enige verzorging,6,Zintuiglijk gehandicapt (ZG),ZG,1
+852,Zorgzwaartepakket (zzp) 2 Zintuiglijk gehandicapt (ZG) auditief Wonen met intensieve begeleiding en verzorging,6,Zintuiglijk gehandicapt (ZG),ZG,2
+854,Zorgzwaartepakket (zzp) 3 Zintuiglijk gehandicapt (ZG) auditief Wonen met intensieve begeleiding en intensieve verzorgin,6,Zintuiglijk gehandicapt (ZG),ZG,3
+856,Zorgzwaartepakket (zzp) 4 Zintuiglijk gehandicapt (ZG) auditief Wonen met intensieve begeleiding en enige verzorging.,6,Zintuiglijk gehandicapt (ZG),ZG,4
+860,Zorgzwaartepakket (zzp) 1B Geestelijke gezondheidszorg (GGZ) Voortgezet verblijf met begeleiding (B-groep),2,Geestelijke gezondheidszorg (GGZ),GGZ,1
+862,Zorgzwaartepakket (zzp) 2B Geestelijke gezondheidszorg (GGZ) Voortgezet verblijf met structuur en uitgebreide begeleidin,2,Geestelijke gezondheidszorg (GGZ),GGZ,2
+864,Zorgzwaartepakket (zzp) 3B Geestelijke gezondheidszorg (GGZ) Voortgezet verblijf met intensieve begeleiding (B-groep),2,Geestelijke gezondheidszorg (GGZ),GGZ,3
+866,Zorgzwaartepakket (zzp) 4C Geestelijke gezondheidszorg (GGZ) Gestructureerd beschermd wonen met intensieve begeleiding e,2,Geestelijke gezondheidszorg (GGZ),GGZ,4
+868,Zorgzwaartepakket (zzp) 5C Geestelijke gezondheidszorg (GGZ) Beschermd wonen met intensieve begeleiding en gedragsregule,2,Geestelijke gezondheidszorg (GGZ),GGZ,5
+870,Zorgzwaartepakket (zzp) 6C Geestelijke gezondheidszorg (GGZ) Beschermd wonen met intensieve begeleiding en intensieve ve,2,Geestelijke gezondheidszorg (GGZ),GGZ,6
+880,Zorgzwaartepakket (zzp) 1W Geestelijke gezondheidszorg (GGZ) Wonen met intensieve begeleiding (W-groep). Deze clientgroe,2,Geestelijke gezondheidszorg (GGZ),GGZ,1
+882,Zorgzwaartepakket (zzp) 2W Geestelijke gezondheidszorg (GGZ) Wonen met intensieve begeleiding en verzorging (W-groep). D,2,Geestelijke gezondheidszorg (GGZ),GGZ,2
+884,Zorgzwaartepakket (zzp) 3W Geestelijke gezondheidszorg (GGZ) Wonen met intensieve begeleiding en gedragsregulering. Deze,2,Geestelijke gezondheidszorg (GGZ),GGZ,3
+886,Zorgzwaartepakket (zzp) 4W Geestelijke gezondheidszorg (GGZ) Wonen met intensieve begeleiding en intensieve verpleging e,2,Geestelijke gezondheidszorg (GGZ),GGZ,4
+888,Zorgzwaartepakket (zzp) 5W Geestelijke gezondheidszorg (GGZ) Beveiligd Wonen vanwege extreme gedragsproblematiek met zee,2,Geestelijke gezondheidszorg (GGZ),GGZ,5

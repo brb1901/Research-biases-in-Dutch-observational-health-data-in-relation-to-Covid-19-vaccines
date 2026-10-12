@@ -1,0 +1,7 @@
+Deze file bevat:
+-Een eigen (de)coderings-file, afgeleid van de door CBS geleverde file variabelenwaardenGEBWLZTAB.xlsx, die de in WLZ-bestanden 
+aanwezige code WLZGZZP helpt te decoderen naar deels bekende en deels eigen WLZ 'type' en 'level'.
+Hier zitten géén op personen gebaseerde afleidingen of data in; deze gebruik ik in bepaalde python-files om WLZ-data te processen.
+
+
+
