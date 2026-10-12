@@ -1,0 +1,425 @@
+** 1960-1970, WLZ 0 **
+
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1960 1970 0 -1
+reading: matchedset_trackable_2021_1960_1970_WLZ0_v3
+(1270240, 49)
+mortalitytype: 0
+ACM Unvaccinated
+317560
+Prop. alive after 1 year:
+0.9813578536339581
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1960-1970_WLZbit0_RxRisk-1_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+952680
+Prop. alive after 1 year:
+0.9965686274509807
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1960-1970_WLZbit0_RxRisk-1_v3.csv
+NVAR: 0.01864214636604189, VAR: 0.0034313725490192626
+VE (RRR): 0.8159346846847114
+VE (ARR): 0.015210773817022627
+
+mortalitytype: 1
+Covid Unvaccinated
+317560
+Prop. alive after 1 year:
+0.9982711928454454
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1960-1970_WLZbit0_RxRisk-1_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+952680
+Prop. alive after 1 year:
+0.9999044799932822
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1960-1970_WLZbit0_RxRisk-1_v3.csv
+NVAR: 0.0017288071545545902, VAR: 9.552000671775307e-05
+VE (RRR): 0.9447480267153552
+VE (ARR): 0.0016332871478368371
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+317560
+Prop. alive after 1 year:
+0.9830866607885118
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1960-1970_WLZbit0_RxRisk-1_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+952680
+Prop. alive after 1 year:
+0.9966641474576986
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1960-1970_WLZbit0_RxRisk-1_v3.csv
+NVAR: 0.016913339211488188, VAR: 0.0033358525423013985
+VE (RRR): 0.8027679513436613
+VE (ARR): 0.013577486669186789
+
+--
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1960 1970 0 0
+reading: matchedset_trackable_2021_1960_1970_WLZ0_v3
+(1270240, 49)
+HEALTHY SUBGROUP: df_p = df_p[ (df_p'med_rxrisk_score_weightedpratt_prevyear_bin']==0) ]
+mortalitytype: 0
+ACM Unvaccinated
+193265
+Prop. alive after 1 year:
+0.9918971360567084
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1960-1970_WLZbit0_RxRisk0_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+579795
+Prop. alive after 1 year:
+0.9984270302434489
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1960-1970_WLZbit0_RxRisk0_v3.csv
+NVAR: 0.008102863943291627, VAR: 0.0015729697565510792
+VE (RRR): 0.8058748403577302
+VE (ARR): 0.006529894186740548
+
+mortalitytype: 1
+Covid Unvaccinated
+193265
+Prop. alive after 1 year:
+0.9991824696660024
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1960-1970_WLZbit0_RxRisk0_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+579795
+Prop. alive after 1 year:
+0.9999741287868993
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1960-1970_WLZbit0_RxRisk0_v3.csv
+NVAR: 0.0008175303339975626, VAR: 2.5871213100714385e-05
+VE (RRR): 0.968354430380327
+VE (ARR): 0.0007916591208968482
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+193265
+Prop. alive after 1 year:
+0.9927146663907072
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1960-1970_WLZbit0_RxRisk0_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+579795
+Prop. alive after 1 year:
+0.9984529014565501
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1960-1970_WLZbit0_RxRisk0_v3.csv
+NVAR: 0.007285333609292843, VAR: 0.0015470985434499207
+VE (RRR): 0.78764204545465
+VE (ARR): 0.005738235065842923
+--
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1960 1970 0 1
+reading: matchedset_trackable_2021_1960_1970_WLZ0_v3
+(1270240, 49)
+UNHEALTHY SUBGROUP: df_p = df_p[ (df_p'med_rxrisk_score_weightedpratt_prevyear_bin']>0) ]
+mortalitytype: 0
+ACM Unvaccinated
+124295
+Prop. alive after 1 year:
+0.9649704332434941
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1960-1970_WLZbit0_RxRisk1_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+372885
+Prop. alive after 1 year:
+0.9936790163187046
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1960-1970_WLZbit0_RxRisk1_v3.csv
+NVAR: 0.035029566756505925, VAR: 0.006320983681295411
+VE (RRR): 0.819552901546479
+VE (ARR): 0.028708583075210514
+
+mortalitytype: 1
+Covid Unvaccinated
+124295
+Prop. alive after 1 year:
+0.9968542580152051
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1960-1970_WLZbit0_RxRisk1_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+372885
+Prop. alive after 1 year:
+0.9997961838100233
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1960-1970_WLZbit0_RxRisk1_v3.csv
+NVAR: 0.003145741984794892, VAR: 0.00020381618997666884
+VE (RRR): 0.9352088661556399
+VE (ARR): 0.002941925794818223
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+124295
+Prop. alive after 1 year:
+0.9681161752282876
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1960-1970_WLZbit0_RxRisk1_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+372885
+Prop. alive after 1 year:
+0.9938828325086835
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1960-1970_WLZbit0_RxRisk1_v3.csv
+NVAR: 0.031883824771712366, VAR: 0.006117167491316522
+VE (RRR): 0.8081419799815318
+VE (ARR): 0.025766657280395844
+
+----
+** 1960-1970, WLZ 1 **
+
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1960 1970 1 -1
+reading: matchedset_trackable_2021_1960_1970_WLZ1_v3
+(6496, 49)
+mortalitytype: 0
+ACM Unvaccinated
+1624
+Prop. alive after 1 year:
+0.815886699507389
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1960-1970_WLZbit1_RxRisk-1_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+4872
+Prop. alive after 1 year:
+0.9552545155993424
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1960-1970_WLZbit1_RxRisk-1_v3.csv
+NVAR: 0.184113300492611, VAR: 0.04474548440065762
+VE (RRR): 0.7569676700111441
+VE (ARR): 0.13936781609195337
+
+mortalitytype: 1
+Covid Unvaccinated
+1624
+Prop. alive after 1 year:
+0.9722906403940884
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1960-1970_WLZbit1_RxRisk-1_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+4872
+Prop. alive after 1 year:
+0.9985632183908033
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1960-1970_WLZbit1_RxRisk-1_v3.csv
+NVAR: 0.027709359605911588, VAR: 0.0014367816091966912
+VE (RRR): 0.9481481481481021
+VE (ARR): 0.026272577996714896
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+1624
+Prop. alive after 1 year:
+0.8435960591133007
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1960-1970_WLZbit1_RxRisk-1_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+4872
+Prop. alive after 1 year:
+0.9566912972085384
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1960-1970_WLZbit1_RxRisk-1_v3.csv
+NVAR: 0.1564039408866993, VAR: 0.043308702791461595
+VE (RRR): 0.7230971128608908
+VE (ARR): 0.1130952380952377
+
+----
+** 1940-1950, WLZ 0 **
+
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1940 1950 0 -1
+reading: matchedset_trackable_2021_1940_1950_WLZ0_v3
+(399116, 49)
+mortalitytype: 0
+ACM Unvaccinated
+99779
+Prop. alive after 1 year:
+0.8417001573477388
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1940-1950_WLZbit0_RxRisk-1_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+299337
+Prop. alive after 1 year:
+0.9746907331870104
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1940-1950_WLZbit0_RxRisk-1_v3.csv
+NVAR: 0.15829984265226116, VAR: 0.025309266812989617
+VE (RRR): 0.840118180858924
+VE (ARR): 0.13299057583927154
+
+mortalitytype: 1
+Covid Unvaccinated
+99779
+Prop. alive after 1 year:
+0.9740526563705788
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1940-1950_WLZbit0_RxRisk-1_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+299337
+Prop. alive after 1 year:
+0.9981926724728319
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1940-1950_WLZbit0_RxRisk-1_v3.csv
+NVAR: 0.025947343629421193, VAR: 0.0018073275271680567
+VE (RRR): 0.9303463370670915
+VE (ARR): 0.024140016102253137
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+99779
+Prop. alive after 1 year:
+0.8676475009771593
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1940-1950_WLZbit0_RxRisk-1_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+299337
+Prop. alive after 1 year:
+0.9764980607141791
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1940-1950_WLZbit0_RxRisk-1_v3.csv
+NVAR: 0.13235249902284074, VAR: 0.023501939285820894
+VE (RRR): 0.8224291988490142
+VE (ARR): 0.10885055973701985
+--
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1940 1950 0 0
+reading: matchedset_trackable_2021_1940_1950_WLZ0_v3
+(399116, 49)
+HEALTHY SUBGROUP: df_p = df_p[ (df_p'med_rxrisk_score_weightedpratt_prevyear_bin']==0) ]
+mortalitytype: 0
+ACM Unvaccinated
+36723
+Prop. alive after 1 year:
+0.9354083272063836
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1940-1950_WLZbit0_RxRisk0_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+110169
+Prop. alive after 1 year:
+0.9899699552505696
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1940-1950_WLZbit0_RxRisk0_v3.csv
+NVAR: 0.06459167279361644, VAR: 0.010030044749430367
+VE (RRR): 0.8447161326587964
+VE (ARR): 0.05456162804418607
+
+mortalitytype: 1
+Covid Unvaccinated
+36723
+Prop. alive after 1 year:
+0.9896250306347512
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1940-1950_WLZbit0_RxRisk0_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+110169
+Prop. alive after 1 year:
+0.9995824596755897
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1940-1950_WLZbit0_RxRisk0_v3.csv
+NVAR: 0.010374969365248843, VAR: 0.00041754032441032596
+VE (RRR): 0.9597550306212098
+VE (ARR): 0.009957429040838517
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+36723
+Prop. alive after 1 year:
+0.9457832965716311
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1940-1950_WLZbit0_RxRisk0_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+110169
+Prop. alive after 1 year:
+0.9903874955749801
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1940-1950_WLZbit0_RxRisk0_v3.csv
+NVAR: 0.05421670342836893, VAR: 0.00961250442501993
+VE (RRR): 0.8227021597187302
+VE (ARR): 0.044604199003349
+--
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1940 1950 0 1
+reading: matchedset_trackable_2021_1940_1950_WLZ0_v3
+(399116, 49)
+UNHEALTHY SUBGROUP: df_p = df_p[ (df_p'med_rxrisk_score_weightedpratt_prevyear_bin']>0) ]
+mortalitytype: 0
+ACM Unvaccinated
+63056
+Prop. alive after 1 year:
+0.7871257295102754
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1940-1950_WLZbit0_RxRisk1_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+189168
+Prop. alive after 1 year:
+0.9657923115960417
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1940-1950_WLZbit0_RxRisk1_v3.csv
+NVAR: 0.21287427048972463, VAR: 0.03420768840395827
+VE (RRR): 0.839305669373465
+VE (ARR): 0.17866658208576636
+
+mortalitytype: 1
+Covid Unvaccinated
+63056
+Prop. alive after 1 year:
+0.9649835067241804
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1940-1950_WLZbit0_RxRisk1_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+189168
+Prop. alive after 1 year:
+0.9973832783557469
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1940-1950_WLZbit0_RxRisk1_v3.csv
+NVAR: 0.03501649327581957, VAR: 0.002616721644253084
+VE (RRR): 0.9252717391304273
+VE (ARR): 0.03239977163156649
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+63056
+Prop. alive after 1 year:
+0.8221422227860945
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1940-1950_WLZbit0_RxRisk1_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+189168
+Prop. alive after 1 year:
+0.9684090332402943
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1940-1950_WLZbit0_RxRisk1_v3.csv
+NVAR: 0.1778577772139055, VAR: 0.03159096675970574
+VE (RRR): 0.8223807400802496
+VE (ARR): 0.14626681045419976
+
+----
+** 1940-1950, WLZ 1 **
+
+(9457) H:\code\python\analysis>python calc_survcurves_VE.py 1940 1950 1 -1
+reading: matchedset_trackable_2021_1940_1950_WLZ1_v3
+(14964, 49)
+mortalitytype: 0
+ACM Unvaccinated
+3741
+Prop. alive after 1 year:
+0.44747393744988
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype0_1940-1950_WLZbit1_RxRisk-1_v3.csv
+mortalitytype: 0
+ACM Vaccinated
+11223
+Prop. alive after 1 year:
+0.8037957765303392
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype0_1940-1950_WLZbit1_RxRisk-1_v3.csv
+NVAR: 0.55252606255012, VAR: 0.19620422346966082
+VE (RRR): 0.6448959845186253
+VE (ARR): 0.3563218390804592
+
+mortalitytype: 1
+Covid Unvaccinated
+3741
+Prop. alive after 1 year:
+0.8730286019780805
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype1_1940-1950_WLZbit1_RxRisk-1_v3.csv
+mortalitytype: 1
+Covid Vaccinated
+11223
+Prop. alive after 1 year:
+0.9822685556446581
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype1_1940-1950_WLZbit1_RxRisk-1_v3.csv
+NVAR: 0.12697139802191948, VAR: 0.017731444355341908
+VE (RRR): 0.8603508771929811
+VE (ARR): 0.10923995366657757
+
+mortalitytype: 2
+Non-Covid Unvaccinated
+3741
+Prop. alive after 1 year:
+0.5744453354717992
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax0_morttype2_1940-1950_WLZbit1_RxRisk-1_v3.csv
+mortalitytype: 2
+Non-Covid Vaccinated
+11223
+Prop. alive after 1 year:
+0.821527220885681
+writing: H:/data/output/csv_python/ves/surv_curves/surv_curve_vax1_morttype2_1940-1950_WLZbit1_RxRisk-1_v3.csv
+NVAR: 0.4255546645282008, VAR: 0.17847277911431902
+VE (RRR): 0.5806113902847564
+VE (ARR): 0.24708188541388176
+
+----

@@ -1,0 +1,5 @@
+De txt\ folder bevat wat beperkte en opgeschoonde output tekst van een paar python scripts. 
+
+ves_dotterpatients_textoutput.txt bevat wat output over de dotter-patienten, mn tbv hun comorbiditeiten-profiel (obv Medicijnen -> Rx-Risk comorbidity index, en leeftijdsprofielen), vergeleken met comorbiditeiten-profiel van vergelijkbare leeftijdsgroepen. Daar waar er in de oorspronkelijke analyses gegevens waren van aantallen mensen <10 is dit in ves_dotterpatients_textoutput.txt vervangen door XXX. 
+
+ves_surv_curves_textoutput.txt bevat output van code om survival curves te bepalen, met daarin ook geschatte Vaccin-Effectiviteit (VE) na 1 jaar op basis daarvan, zowel op Relative Risk Reduction (RRR) manier berekend als op Absolute Risk Reduction (ARR) manier.

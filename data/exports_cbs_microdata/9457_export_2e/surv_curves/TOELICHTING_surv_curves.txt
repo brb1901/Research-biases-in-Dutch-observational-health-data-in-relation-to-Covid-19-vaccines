@@ -1,0 +1,15 @@
+De surv_curves\ folder bevat survival curve data (ook csv) per dag vanaf een middels matching + survival analyse-algoritme bepaalde start-datum, voor enkele van dezelfde geboortejaar-cohorten en stratificaties obv WLZ en Rx-Risk comorbidity als die in matched\ geanalyseerd zijn; apart voor gevaccineerden (..vax1..) en ongevaccineerden (..vax0..). Alleen geboortejaar-cohort 1940-1950, en geboortejaar-cohort 1960-1970, zijn geincludeerd.
+
+De survival curves zijn gebaseerd op geaggregeerde overlevingspercentages van de hele subgroep vanaf wisselende start-datum, o.b.v. groepen altijd (veel) meer dan 10 mensen groot. De start-datums (moment waarop follow-up begon) zijn dusdanig arbitrair verdeeld over het hele jaar 2021 en onafhankelijk van sterftedatum van personen dat ook veranderingen in die survival-percentages van periode tot periode niet terug te voeren zijn op individuen of groepen minder dan 10 personen. 
+
+Er zijn 3 soorten sterfte (mortality type, morttype) onderscheiden waarvoor aparte survival curves gemaakt zijn: 
+0: All Cause Mortality
+1: Covid-sterfte
+2: Non-Covid-sterfte
+
+De csv tabellen in txt_csv_python\surv_curves komen overeen met de corresponderende (en gelijksoortig genaamde) plots in plots\surv_curves.
+
+Exacte kolommen:
+timeline (in dagen vanaf de start-datum)
+[Mortality type-naam:] survival-percentage van de subgroep op dat moment in de timeline
+
